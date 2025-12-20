@@ -1,0 +1,36 @@
+"filename", "language", "Astro", "XML", "JSON", "JSON with Comments", "Markdown", "PostCSS", "JavaScript", "comment", "blank", "total"
+"/Users/althaf/Desktop/mini-erp-landing/README.md", "Markdown", 0, 0, 0, 0, 35, 0, 0, 0, 12, 47
+"/Users/althaf/Desktop/mini-erp-landing/astro.config.mjs", "JavaScript", 0, 0, 0, 0, 0, 0, 2, 2, 2, 6
+"/Users/althaf/Desktop/mini-erp-landing/package-lock.json", "JSON", 0, 0, 5073, 0, 0, 0, 0, 0, 1, 5074
+"/Users/althaf/Desktop/mini-erp-landing/package.json", "JSON", 0, 0, 14, 0, 0, 0, 0, 0, 0, 14
+"/Users/althaf/Desktop/mini-erp-landing/public/favicon.svg", "XML", 0, 9, 0, 0, 0, 0, 0, 0, 1, 10
+"/Users/althaf/Desktop/mini-erp-landing/src/assets/astro.svg", "XML", 0, 1, 0, 0, 0, 0, 0, 0, 1, 2
+"/Users/althaf/Desktop/mini-erp-landing/src/assets/background.svg", "XML", 0, 1, 0, 0, 0, 0, 0, 0, 1, 2
+"/Users/althaf/Desktop/mini-erp-landing/src/components/Welcome.astro", "Astro", 183, 0, 0, 0, 0, 0, 0, 0, 28, 211
+"/Users/althaf/Desktop/mini-erp-landing/src/components/about/mission.astro", "Astro", 0, 0, 0, 0, 0, 0, 0, 1, 0, 1
+"/Users/althaf/Desktop/mini-erp-landing/src/components/about/profile.astro", "Astro", 0, 0, 0, 0, 0, 0, 0, 1, 0, 1
+"/Users/althaf/Desktop/mini-erp-landing/src/components/book/form.astro", "Astro", 0, 0, 0, 0, 0, 0, 0, 1, 0, 1
+"/Users/althaf/Desktop/mini-erp-landing/src/components/features/analytic.astro", "Astro", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/althaf/Desktop/mini-erp-landing/src/components/features/components.astro", "Astro", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/althaf/Desktop/mini-erp-landing/src/components/features/management.astro", "Astro", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/althaf/Desktop/mini-erp-landing/src/components/features/payroll.astro", "Astro", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/althaf/Desktop/mini-erp-landing/src/components/features/performance.astro", "Astro", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/althaf/Desktop/mini-erp-landing/src/components/features/security.astro", "Astro", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/althaf/Desktop/mini-erp-landing/src/components/global/booking.astro", "Astro", 21, 0, 0, 0, 0, 0, 0, 1, 8, 30
+"/Users/althaf/Desktop/mini-erp-landing/src/components/global/footer.astro", "Astro", 21, 0, 0, 0, 0, 0, 0, 1, 8, 30
+"/Users/althaf/Desktop/mini-erp-landing/src/components/global/header.astro", "Astro", 21, 0, 0, 0, 0, 0, 0, 0, 8, 29
+"/Users/althaf/Desktop/mini-erp-landing/src/components/global/navbar.astro", "Astro", 57, 0, 0, 0, 0, 0, 0, 2, 16, 75
+"/Users/althaf/Desktop/mini-erp-landing/src/components/home/faq.astro", "Astro", 14, 0, 0, 0, 0, 0, 0, 0, 1, 15
+"/Users/althaf/Desktop/mini-erp-landing/src/components/home/features.astro", "Astro", 24, 0, 0, 0, 0, 0, 0, 2, 9, 35
+"/Users/althaf/Desktop/mini-erp-landing/src/components/home/hero.astro", "Astro", 28, 0, 0, 0, 0, 0, 0, 2, 9, 39
+"/Users/althaf/Desktop/mini-erp-landing/src/components/home/integration.astro", "Astro", 25, 0, 0, 0, 0, 0, 0, 2, 9, 36
+"/Users/althaf/Desktop/mini-erp-landing/src/components/home/portal.astro", "Astro", 27, 0, 0, 0, 0, 0, 0, 2, 9, 38
+"/Users/althaf/Desktop/mini-erp-landing/src/components/home/techstack.astro", "Astro", 38, 0, 0, 0, 0, 0, 0, 1, 11, 50
+"/Users/althaf/Desktop/mini-erp-landing/src/layouts/Layout.astro", "Astro", 28, 0, 0, 0, 0, 0, 0, 0, 2, 30
+"/Users/althaf/Desktop/mini-erp-landing/src/pages/about.astro", "Astro", 16, 0, 0, 0, 0, 0, 0, 0, 1, 17
+"/Users/althaf/Desktop/mini-erp-landing/src/pages/book.astro", "Astro", 14, 0, 0, 0, 0, 0, 0, 0, 1, 15
+"/Users/althaf/Desktop/mini-erp-landing/src/pages/features.astro", "Astro", 24, 0, 0, 0, 0, 0, 0, 0, 1, 25
+"/Users/althaf/Desktop/mini-erp-landing/src/pages/index.astro", "Astro", 26, 0, 0, 0, 0, 0, 0, 0, 3, 29
+"/Users/althaf/Desktop/mini-erp-landing/src/styles/variables.css", "PostCSS", 0, 0, 0, 0, 0, 8, 0, 0, 0, 8
+"/Users/althaf/Desktop/mini-erp-landing/tsconfig.json", "JSON with Comments", 0, 0, 0, 5, 0, 0, 0, 0, 1, 6
+"Total", "-", 567, 11, 5087, 5, 35, 8, 2, 18, 149, 5882

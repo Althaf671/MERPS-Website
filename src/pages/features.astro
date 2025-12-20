@@ -1,0 +1,25 @@
+---
+import Analytic from "../components/features/analytic.astro";
+import Components from "../components/features/components.astro";
+import Management from "../components/features/management.astro";
+import Payroll from "../components/features/payroll.astro";
+import Performance from "../components/features/performance.astro";
+import Security from "../components/features/security.astro";
+import Footer from "../components/global/footer.astro";
+import Header from "../components/global/header.astro";
+import Navbar from "../components/global/navbar.astro";
+import Layout from "../layouts/Layout.astro";
+import '../styles/variables.css';
+---
+
+<Layout>
+    <Navbar />
+    <Header />
+    <Security />
+    <Analytic />
+    <Management />
+    <Payroll />
+    <Performance />
+    <Components />
+    <Footer />
+</Layout>

@@ -1,0 +1,78 @@
+Date : 2025-12-20 22:27:23
+Directory : /Users/althaf/Desktop/mini-erp-landing
+Total : 34 files,  5715 codes, 18 comments, 149 blanks, all 5882 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          2 |      5,087 |          0 |          1 |      5,088 |
+| Astro              |         25 |        567 |         16 |        130 |        713 |
+| Markdown           |          1 |         35 |          0 |         12 |         47 |
+| XML                |          3 |         11 |          0 |          3 |         14 |
+| PostCSS            |          1 |          8 |          0 |          0 |          8 |
+| JSON with Comments |          1 |          5 |          0 |          1 |          6 |
+| JavaScript         |          1 |          2 |          2 |          2 |          6 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                             | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                |         34 |      5,715 |         18 |        149 |      5,882 |
+| . (Files)                                                                        |          5 |      5,129 |          2 |         16 |      5,147 |
+| public                                                                           |          1 |          9 |          0 |          1 |         10 |
+| src                                                                              |         28 |        577 |         16 |        132 |        725 |
+| src/assets                                                                       |          2 |          2 |          0 |          2 |          4 |
+| src/components                                                                   |         20 |        459 |         16 |        122 |        597 |
+| src/components (Files)                                                           |          1 |        183 |          0 |         28 |        211 |
+| src/components/about                                                             |          2 |          0 |          2 |          0 |          2 |
+| src/components/book                                                              |          1 |          0 |          1 |          0 |          1 |
+| src/components/features                                                          |          6 |          0 |          0 |          6 |          6 |
+| src/components/global                                                            |          4 |        120 |          4 |         40 |        164 |
+| src/components/home                                                              |          6 |        156 |          9 |         48 |        213 |
+| src/layouts                                                                      |          1 |         28 |          0 |          2 |         30 |
+| src/pages                                                                        |          4 |         80 |          0 |          6 |         86 |
+| src/styles                                                                       |          1 |          8 |          0 |          0 |          8 |
++----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                         | language           | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| /Users/althaf/Desktop/mini-erp-landing/README.md                                 | Markdown           |         35 |          0 |         12 |         47 |
+| /Users/althaf/Desktop/mini-erp-landing/astro.config.mjs                          | JavaScript         |          2 |          2 |          2 |          6 |
+| /Users/althaf/Desktop/mini-erp-landing/package-lock.json                         | JSON               |      5,073 |          0 |          1 |      5,074 |
+| /Users/althaf/Desktop/mini-erp-landing/package.json                              | JSON               |         14 |          0 |          0 |         14 |
+| /Users/althaf/Desktop/mini-erp-landing/public/favicon.svg                        | XML                |          9 |          0 |          1 |         10 |
+| /Users/althaf/Desktop/mini-erp-landing/src/assets/astro.svg                      | XML                |          1 |          0 |          1 |          2 |
+| /Users/althaf/Desktop/mini-erp-landing/src/assets/background.svg                 | XML                |          1 |          0 |          1 |          2 |
+| /Users/althaf/Desktop/mini-erp-landing/src/components/Welcome.astro              | Astro              |        183 |          0 |         28 |        211 |
+| /Users/althaf/Desktop/mini-erp-landing/src/components/about/mission.astro        | Astro              |          0 |          1 |          0 |          1 |
+| /Users/althaf/Desktop/mini-erp-landing/src/components/about/profile.astro        | Astro              |          0 |          1 |          0 |          1 |
+| /Users/althaf/Desktop/mini-erp-landing/src/components/book/form.astro            | Astro              |          0 |          1 |          0 |          1 |
+| /Users/althaf/Desktop/mini-erp-landing/src/components/features/analytic.astro    | Astro              |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/mini-erp-landing/src/components/features/components.astro  | Astro              |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/mini-erp-landing/src/components/features/management.astro  | Astro              |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/mini-erp-landing/src/components/features/payroll.astro     | Astro              |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/mini-erp-landing/src/components/features/performance.astro | Astro              |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/mini-erp-landing/src/components/features/security.astro    | Astro              |          0 |          0 |          1 |          1 |
+| /Users/althaf/Desktop/mini-erp-landing/src/components/global/booking.astro       | Astro              |         21 |          1 |          8 |         30 |
+| /Users/althaf/Desktop/mini-erp-landing/src/components/global/footer.astro        | Astro              |         21 |          1 |          8 |         30 |
+| /Users/althaf/Desktop/mini-erp-landing/src/components/global/header.astro        | Astro              |         21 |          0 |          8 |         29 |
+| /Users/althaf/Desktop/mini-erp-landing/src/components/global/navbar.astro        | Astro              |         57 |          2 |         16 |         75 |
+| /Users/althaf/Desktop/mini-erp-landing/src/components/home/faq.astro             | Astro              |         14 |          0 |          1 |         15 |
+| /Users/althaf/Desktop/mini-erp-landing/src/components/home/features.astro        | Astro              |         24 |          2 |          9 |         35 |
+| /Users/althaf/Desktop/mini-erp-landing/src/components/home/hero.astro            | Astro              |         28 |          2 |          9 |         39 |
+| /Users/althaf/Desktop/mini-erp-landing/src/components/home/integration.astro     | Astro              |         25 |          2 |          9 |         36 |
+| /Users/althaf/Desktop/mini-erp-landing/src/components/home/portal.astro          | Astro              |         27 |          2 |          9 |         38 |
+| /Users/althaf/Desktop/mini-erp-landing/src/components/home/techstack.astro       | Astro              |         38 |          1 |         11 |         50 |
+| /Users/althaf/Desktop/mini-erp-landing/src/layouts/Layout.astro                  | Astro              |         28 |          0 |          2 |         30 |
+| /Users/althaf/Desktop/mini-erp-landing/src/pages/about.astro                     | Astro              |         16 |          0 |          1 |         17 |
+| /Users/althaf/Desktop/mini-erp-landing/src/pages/book.astro                      | Astro              |         14 |          0 |          1 |         15 |
+| /Users/althaf/Desktop/mini-erp-landing/src/pages/features.astro                  | Astro              |         24 |          0 |          1 |         25 |
+| /Users/althaf/Desktop/mini-erp-landing/src/pages/index.astro                     | Astro              |         26 |          0 |          3 |         29 |
+| /Users/althaf/Desktop/mini-erp-landing/src/styles/variables.css                  | PostCSS            |          8 |          0 |          0 |          8 |
+| /Users/althaf/Desktop/mini-erp-landing/tsconfig.json                             | JSON with Comments |          5 |          0 |          1 |          6 |
+| Total                                                                            |                    |      5,715 |         18 |        149 |      5,882 |
++----------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+

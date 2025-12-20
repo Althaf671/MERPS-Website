@@ -1,0 +1,75 @@
+---
+import Image from "astro/components/Image.astro";
+
+const logo = "";
+---
+
+<!-- An informative navbar -->
+<nav class="navbar">
+    <div class="logo-container">
+        <!-- <Image src={logo} width={10} height={10} /> -->
+        <p>Logo</p>
+    </div>
+    <ul class="nav-list">
+        <li><a href="/">Home</a></li>
+        <li><a href="/features">Features</a></li>
+        <li><a href="/about">About</a></li>
+    </ul>
+    <div class="button-container">
+        <a href="/book">Book</a>
+    </div>
+</nav>
+
+<style>
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+    }
+
+    .logo-container {
+        color: var(--color-text);
+    }
+
+    .nav-list {
+        display: flex;
+        border: 1px solid black;
+        width: fit-content;
+        gap: .5em;
+        padding: 0;
+    }
+
+    .nav-list li {
+        list-style: none;
+    }
+
+    .nav-list a {
+        text-decoration: none;
+        color: var(--color-text);
+    }
+
+    .button-container {
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .button-container .book-btn {
+        color: var(--color-text);
+    }
+
+    @media (max-width: 680px) {
+        
+    }
+
+    @media (max-width: 880px) {
+        
+    }
+
+    @media (max-width: 1080px) {
+        
+    }
+
+</style>
