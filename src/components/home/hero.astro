@@ -1,14 +1,29 @@
+---
+
+---
+
 <!-- This components contain CTA button, a simple desc
  and a dashboard image -->
 
 <section class="hero__section">
     <div class="upper-container">
-        <p>Text untuk Hero section</p>
-        <button>CTA Booking</button>
-        <button>CTA Explore</button>
+        <h1>
+            An Integrated Production-Ready Frontend Ecosystem 
+            For Your Organization
+        </h1>
+        <p>
+            Built in portal management system from dashboards, analytic 
+            engine, into Google workspace integration and real-time application 
+            monitoring.
+        </p>
+        <button>Booking</button>
+        <button>Explore</button>
     </div>
     <div class="lower-container">
-        <p>Gallery</p>
+        <img 
+            src="/images/hero.png" 
+            alt="Portal System Admin"
+        >
     </div>
 </section>
 
@@ -16,12 +31,29 @@
     /* Basic styles */
     .hero__section {
         width: 90vw;
-        height: 60vh;
+        min-height: 60vh;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         border: 1px solid var(--color-border);
+        padding-top: 3em;
+    }
+
+    .upper-container {}
+
+    .lower-container {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .lower-container img {
+        width: 950px;
+        height: 450px;
+        object-fit: contain;
     }
 
     @media (max-width: 680px) {

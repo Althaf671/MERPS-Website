@@ -1,12 +1,57 @@
 <!-- This component must contain list of techstack -->
 
 <section class="techstack__container">
+    <p>With the best technology available</p>
     <ul class="techstack-list">
-        <li>Astro</li>
-        <li>Angular</li>
-        <li>ASP.NET Core</li>
-        <li>Docker</li>
-        <li>Azure</li>
+        <li>
+            <img 
+                src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=astro&logoColor=white" 
+                alt="Astro Logo"
+            >
+            <span>Astro</span>
+        </li>
+        <li>
+            <img 
+                src="https://img.shields.io/badge/-DD0031?style=for-the-badge&logo=angular&logoColor=white" 
+                alt="Angular Logo"
+            >
+            <span>Angular</span>
+        </li>
+        <li>
+            <img 
+                src="https://img.shields.io/badge/-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" 
+                alt="ASP.Net Core Logo"
+            >
+            <span>ASP.Net Core</span>
+        </li>
+        <li>
+            <img 
+                src="https://img.shields.io/badge/-FF5D01?style=for-the-badge&logo=cloudflare&logoColor=white" 
+                alt="Cloudflare Logo"
+            >
+            <span>Cloudflare</span>
+        </li>
+        <li>
+            <img 
+                src="https://img.shields.io/badge/-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" 
+                alt="PostgreSQL Logo"
+            >
+            <span>PostgreSQL</span>
+        </li>
+        <li>
+            <img 
+                src="https://img.shields.io/badge/-DC382D?style=for-the-badge&logo=redis&logoColor=white" 
+                alt="Redis Logo"
+            >
+            <span>Redis</span>
+        </li>
+        <li>
+            <img 
+                src="https://img.shields.io/badge/-2496ED?style=for-the-badge&logo=docker&logoColor=white" 
+                alt="Docker Logo"
+            >
+            <span>Docker</span>
+        </li>
     </ul>
 </section>
 
@@ -14,9 +59,9 @@
     /* Basic styles */
     .techstack__container {
         width: 90vw;
-        height: 10vh;
+        min-height: 10vh;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         border: 1px solid var(--color-border);
