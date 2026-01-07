@@ -2,7 +2,7 @@ export class UiService
 {
     public useToggle(): void
     {
-
+        
     }
 
     public useDropdown(): void
@@ -14,4 +14,5 @@ export class UiService
     {
 
     }
+
 }
