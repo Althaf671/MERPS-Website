@@ -3,12 +3,20 @@
 
 <section class="portal__showcase-container">
     <header class="section-header">
+        <div class="section-title-container">
+            <div class="section-title">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="var(--color-text)" d="M20.026 12.192a2 2 0 0 1-.577.598l-6.05 4.084a2.5 2.5 0 0 1-2.798 0l-6.05-4.084a2 2 0 0 1-.779-2.29l6.841 4.56a2.5 2.5 0 0 0 2.613.098l.16-.098l6.841-4.56a2 2 0 0 1-.201 1.692m.201 1.558a1.996 1.996 0 0 1-.778 2.29l-6.05 4.084a2.5 2.5 0 0 1-2.798 0l-6.05-4.084a2 2 0 0 1-.779-2.29l6.841 4.56a2.5 2.5 0 0 0 2.613.098l.16-.098zm-6.84-10.325l6.365 4.243a1 1 0 0 1 0 1.664l-6.365 4.244a2.5 2.5 0 0 1-2.774 0L4.248 9.332a1 1 0 0 1 0-1.664l6.365-4.243a2.5 2.5 0 0 1 2.774 0M11.56 4.606l-.116.067L5.705 8.5l5.74 3.828a1 1 0 0 0 .994.066l.116-.066L18.294 8.5l-5.74-3.827a1 1 0 0 0-.993-.067" />
+                </svg>
+                <p>Ecosystem Portals</p>
+            </div>
+        </div>
         <h2>
-            Portals
+            Explore the <span>Integrated Portals</span> of MERPS.
         </h2>
         <p>
-            It's our duty to ensure you have robust security, 
-            fastest performance, and ehanched management experience
+        A unified powerhouse for every department. MERPS provides specialized portals designed 
+        to streamline operations, from high-level administration to ground-level inventory.
         </p>
     </header>
     <div class="portal-sysadmin-container">Portal System Admin</div>
@@ -28,9 +36,53 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        border: 1px solid var(--color-border); 
     }
-
+    .section-header {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2.5em;
+        text-align: center;
+        justify-content: center;
+        padding-inline: 4em;
+    }
+    .section-header .section-title-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-header .section-title-container .section-title {
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        border: 1px solid var(--color-border);
+        gap: .25em;
+        padding: .15em .5em;
+        border-radius: 18px;
+    }
+    .section-header .section-title-container .section-title p {
+        padding: 0;
+        margin: 0;
+        font-size: .8rem;
+        color: var(--color-primary);
+    }
+    .section-header h2 span {
+        background-color: #F5F3FF;
+        padding-inline: .25em;
+        color: #4F46E5;
+    }
+    .section-header h2 {
+        width: 100%;
+        font-weight: 500;
+        letter-spacing: 0.25px;
+        font-size: 2rem;
+    }
+    .section-header p {
+        width: 100%;
+        color: var(--color-text);
+        font-weight: 300;
+    }
     @media (max-width: 680px) {
         
     }

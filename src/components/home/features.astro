@@ -3,18 +3,45 @@
 
 <section class="features__container">
     <header class="section-header">
+        <div class="section-title-container">
+            <div class="section-title">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <g fill="var(--color-text)">
+                        <circle cx="5" cy="5" r="1.5" />
+                        <circle cx="12" cy="5" r="1.5" />
+                        <circle cx="19" cy="5" r="1.5" />
+                        <circle cx="5" cy="12" r="1.5" />
+                        <circle cx="12" cy="12" r="1.5" />
+                        <circle cx="19" cy="12" r="1.5" />
+                        <circle cx="5" cy="19" r="1.5" />
+                        <circle cx="12" cy="19" r="1.5" />
+                        <circle cx="19" cy="19" r="1.5" />
+                    </g>
+                </svg>
+                <p>Features</p>
+            </div>
+        </div>
         <h2>
-            We brings <span>Out-of-the-Box</span>
-            Features to the table
+            Powerful <span>Features</span> built for modern mini ERP.
         </h2>
         <p>
-            It's our duty to ensure you have robust security, 
-            fastest performance, and ehanched management experience
+            Eliminate the clutter of multiple platforms. Experience a unified management suite that bridges the gap between your core business data and your favorite Google Workspace tools.
         </p>
     </header>
-    <div class="highlight-feature-1">Security</div>
-    <div class="highlight-feature-2">Performance</div>
-    <div class="highlight-feature-3">Management</div>
+    <div class="features-item-container">
+        <div class="item">
+            <header>Security</header>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, aliquid corporis. Illum eligendi cupiditate quisquam corrupti perspiciatis, cum quidem, maxime enim magni fugiat aut eveniet sint! Expedita illum fugit veritatis?</p>
+        </div>
+        <div class="item">
+            <header>Performance</header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error porro unde quibusdam, voluptates saepe, soluta delectus nulla earum, deleniti alias doloremque doloribus quidem optio repellendus ut ea sint fugit nemo?</p>
+        </div>
+        <div class="item">
+            <header>Management</header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aliquam quasi voluptate laudantium et consequuntur. Cumque fugiat nulla a quibusdam voluptas labore. Quod iure blanditiis magnam nam earum veritatis adipisci?</p>
+        </div>
+    </div>
 </section>
 
 <style>
@@ -25,10 +52,70 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        align-items: center;
-        border: 1px solid var(--color-border); 
+        align-items: center;  
     }
-
+    .features-item-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 2rem;
+    }
+    .features-item-container .item {
+        width: 48.333%;
+        height: 300px;
+        border: 1px solid var(--color-border);
+    }
+    .features-item-container .item:nth-child(3) {
+        width: 100%;
+        height: 300px;
+        border: 1px solid var(--color-border);
+    }
+    .section-header {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2.5em;
+        text-align: center;
+        justify-content: center;
+        padding-inline: 4em;
+    }
+    .section-header .section-title-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-header .section-title-container .section-title {
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        border: 1px solid var(--color-border);
+        gap: .25em;
+        padding: .15em .5em;
+        border-radius: 18px;
+    }
+    .section-header .section-title-container .section-title p {
+        padding: 0;
+        margin: 0;
+        font-size: .8rem;
+        color: var(--color-primary);
+    }
+    .section-header h2 span {
+        background-color: #E6F4EA;
+        padding-inline: .25em;
+        color: #1E8E3E;
+    }
+    .section-header h2 {
+        width: 100%;
+        font-weight: 500;
+        letter-spacing: 0.25px;
+        font-size: 2rem;
+    }
+    .section-header p {
+        width: 100%;
+        color: var(--color-text);
+        font-weight: 300;
+    }
     @media (max-width: 680px) {
         
     }
