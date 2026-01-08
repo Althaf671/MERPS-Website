@@ -1,21 +1,75 @@
 <!-- This component must contain booking area -->
 <div class="book__container">
-    <button>Book Now</button>
+    <div class="background"></div>
+    <div class="left-side">
+        <header>
+            <h3>Ready to transform your workflow?</h3>
+            <p>
+                Stop juggling between tabs and start managing your 
+                business with precision. Book a session to see how MERPS 
+                unifies your entire Google Workspace into one powerful, 
+                high-performance command center.
+            </p>
+        </header>
+        <div class="cta-btn-container">
+            <button>
+                Book now
+                <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    width="24" 
+                    height="24" 
+                    viewBox="0 0 24 24"
+                >
+                    <path 
+                        fill="none" 
+                        stroke="#ffffff" 
+                        stroke-linecap="round" 
+                        stroke-linejoin="round" 
+                        stroke-width="2" 
+                        d="M5 12h14m-7-7l7 7l-7 7"
+                    />
+                </svg>
+            </button>
+        </div>
+    </div>
+    <div class="right-side"></div>
 </div>
 
 <style>
     /* Basic styles */
     .book__container {
-        width: 90vw;
+        position: relative;
+        width: 80vw;
         min-height: 50vh;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
         border: 1px solid var(--color-border); 
         border-radius: 18px;
     }
-
+    .background {
+        position: absolute;
+    }
+    .left-side {
+        margin: 0;
+        width: 40%;
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid var(--color-border);
+        padding-bottom: 3em;
+    }
+    .cta-btn-container {
+        border: 1px solid var(--color-border);
+        width: 100%;
+    }
+    .right-side {
+        width: 50%;
+        height: 100%;
+    }
     @media (max-width: 680px) {
         
     }

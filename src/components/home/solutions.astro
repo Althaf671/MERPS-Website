@@ -1,0 +1,155 @@
+<!-- This component must explain
+ every merps product  -->
+
+<section class="template-container">
+    <header class="section-header">
+        <div class="section-title-container">
+            <div class="section-title">
+                <svg style="margin-top: -2px;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 20">
+                    <path fill="#6c6b6b" d="M10 2c3.314 0 6 2.597 6 5.8c0 1.677-.745 3.216-2.204 4.594a.6.6 0 0 0-.145.213l-.026.081l-.936 3.917c-.184.771-.865 1.33-1.67 1.39l-.144.005h-1.75c-.818 0-1.535-.516-1.776-1.262l-.038-.133l-.935-3.916a.6.6 0 0 0-.17-.295c-1.39-1.312-2.133-2.77-2.2-4.355L4 7.8l.003-.191C4.108 4.494 6.753 2 10 2m2.045 13h-4.09l.319 1.334l.026.096c.097.3.376.522.712.563l.113.007h1.713l.106-.003a.86.86 0 0 0 .741-.525l.031-.1zM10 3C7.368 3 5.212 4.953 5.015 7.414l-.012.212L5 7.779l.004.217c.056 1.304.674 2.525 1.888 3.671c.188.178.33.398.414.64l.043.15L7.716 14h4.569l.387-1.615l.051-.15c.086-.215.218-.409.386-.568C14.383 10.465 15 9.181 15 7.8C15 5.157 12.769 3 10 3" />
+                </svg>
+                <p>Solutions</p>
+            </div>
+        </div>
+        <h2>
+            Your <span>Mini ERP Solutions</span> Comparison.
+        </h2>
+        <div class="btn-container">
+            <div class="btn-group">
+                <button>Core</button>
+                <button>Lite</button>
+                <button>Nano</button>
+            </div>
+        </div>
+    </header>
+    <div class="template-container">
+        <div class="item">
+            <header>
+                <h3>MERPS Core</h3>
+                pamflet at left
+                table at right
+            </header>
+        </div>
+        <!-- <div class="item">
+            <header>
+                <h3>MERPS Lite</h3>
+            </header>
+        </div>
+        <div class="item">
+            <h3>MERPS Nano</h3>
+        </div> -->
+    </div>
+</section>
+
+<style>
+    /* Basic styles */
+    .portal__showcase-container {
+        width: 80vw;
+        min-height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .section-header {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2.5em;
+        text-align: center;
+        justify-content: center;
+        padding-inline: 4em;
+    }
+    .section-header .section-title-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-header .section-title-container .section-title {
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        border: 1px solid var(--color-border);
+        gap: .15em;
+        padding: .15em .5em;
+        border-radius: 18px;
+    }
+    .section-header .section-title-container .section-title p {
+        padding: 0;
+        margin: 0;
+        font-size: .8rem;
+        color: var(--color-primary);
+    }
+    .section-header h2 span {
+        background-color: #FFF1F2;
+        padding-inline: .25em;
+        color: #E11D48;
+    }
+    .section-header h2 {
+        width: 100%;
+        font-weight: 500;
+        letter-spacing: 0.25px;
+        font-size: 2rem;
+    }
+    .section-header p {
+        width: 100%;
+        color: var(--color-text);
+        font-weight: 300;
+    }
+    .section-header .btn-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .section-header .btn-group {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        gap: 0;
+        font-weight: 300;
+        padding: 0;
+        border: 1px solid var(--color-border);
+        border-radius: 10px;
+    }
+    .section-header .btn-group button {
+        min-width: 100px;
+        min-height: 30px;
+        border: none;
+        font-size: .95rem;
+        padding: .45em .5em;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+    }
+    .section-header .btn-group button:nth-child(1) {
+        background-color: var(--color-primary);
+        /* border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px; */
+        border-radius: 10px;
+        color: white;
+    }
+    .section-header .btn-group button:nth-child(2) {
+        background-color: var(--color-secondary);
+        color: var(--color-text);
+    }
+    .section-header .btn-group button:nth-child(3) {
+        background-color: var(--color-secondary);
+        /* border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px; */
+        color: var(--color-text);
+    }
+    @media (max-width: 680px) {
+        
+    }
+
+    @media (max-width: 880px) {
+        
+    }
+
+    @media (max-width: 1080px) {
+        
+    }
+    
+</style>
